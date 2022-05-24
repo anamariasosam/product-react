@@ -1,12 +1,13 @@
 import { useContext } from 'react';
 import { StoreContext } from '../../utils/StoreContext';
+import './Cart.scss';
 
 const Cart = () => {
   const { cartItems, cartTotal } = useContext(StoreContext);
   return (
     cartTotal > 0 && (
       <div className="cart">
-        <table>
+        <table className="cart__table">
           <thead>
             <tr>
               <th>Name</th>

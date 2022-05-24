@@ -1,19 +1,4 @@
-.cart table {
-  width: 60%;
-  margin: 0 auto;
-}
 
-.cart th {
-  text-align: center;
-}
-
-.cart table,
-.cart th,
-.cart td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  text-align: right;
-}
 
 .products {
   display: flex;
